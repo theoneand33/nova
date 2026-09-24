@@ -190,7 +190,7 @@ zen-workspace-icons .subviewbutton {
 }
 
 .sineToast {
-    border-radius: 12px !important;
+    border-radius: 14px !important;
     padding: 12px !important;
     padding-left: 16px !important;
     background: var(--arrowpanel-background) !important;

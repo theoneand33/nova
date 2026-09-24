@@ -14,7 +14,7 @@ menuseparator {
 menupopup,
 panel {
     --menuitem-padding: var(--btn) !important;
-    --panel-border-radius: var(--s) !important;
+    --panel-border-radius: 10px !important;
     --panel-border-color: none !important;
 }
 
@@ -28,7 +28,7 @@ menucaption,
 menuitem.menuitem-iconic {
     margin: 0 var(--s) !important;
     padding: var(--btn) !important;
-    border-radius: var(--xs) !important;
+    border-radius: 6px !important;
 }
 
 menu,
