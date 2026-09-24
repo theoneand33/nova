@@ -52,23 +52,10 @@
 
         &>button {
             padding: 10px !important;
-            /* background: color-mix(in srgb, currentColor 6%, transparent) !important; */
             border: none !important;
             outline: none !important;
             border-radius: 8px !important;
             margin: 0 !important;
-
-            /* &:hover {
-                background: color-mix(in srgb, currentColor 10%, transparent) !important;
-            }
-
-            &[selected] {
-                background: color-mix(in srgb, currentColor 20%, transparent) !important;
-
-                &:hover {
-                    background: color-mix(in srgb, currentColor 24%, transparent) !important;
-                }
-            } */
         }
     }
 }

@@ -75,7 +75,6 @@ moz-button-group {
 
 #urlbar {
     .urlbar-background {
-        /* background: var(--arrowpanel-background) !important; */
         outline: none !important;
     }
 
@@ -95,18 +94,6 @@ moz-button-group {
         background: none !important;
     }
 
-    /* .urlbarView-row-inner {
-        padding-left: var(--s) !important;
-    }
-
-    .urlbarView-button-result-menu {
-        margin-right: var(--s) !important;
-    }
-
-    #identity-box[pageproxystate="invalid"] {
-        margin-inline-end: var(--s) !important;
-    } */
-
     .urlbarView-button-result-menu {
         margin-right: var(--m) !important;
     }
@@ -115,10 +102,6 @@ moz-button-group {
         background: none !important;
     }
 }
-
-/* :root:not([zen-single-toolbar="true"]):not([zen-has-empty-tab="true"]) #urlbar:not([breakout-extend="true"]) .urlbar-input-container {
-    padding: 2px !important;
-} */
 
 #translations-button {
     height: 100% !important;
@@ -163,29 +146,11 @@ zen-workspace-icons .subviewbutton {
     }
 }
 
-/* #main-window[zen-default-theme="true"] {
-    #titlebar {
-        background: var(--zen-main-browser-background) !important;
-    }
-} */
-
 .zen-essentials-container {
     :root[zen-single-toolbar="true"] &:not(:empty) {
         padding-top: var(--zen-toolbox-padding) !important;
     }
 }
-
-/* :root[zen-compact-mode="true"]:not([customizing]):not([inDOMFullscreen="true"]) {
-    @media -moz-pref("zen.view.compact.hide-tabbar") or -moz-pref("zen.view.use-single-toolbar") {
-        &:not([zen-compact-animating]) {
-            & #navigator-toolbox {
-                &:not([animate="true"]) {
-                    transition: left 0.3s ease, right 0.3s ease, visibility 0.3s ease !important;
-                }
-            }
-        }
-    }
-} */
 
 /* themes */
 
