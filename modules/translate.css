@@ -77,7 +77,6 @@
 
 .translations-panel-footer {
     gap: var(--s) !important;
-    /* padding-top: var(--m); */
     margin: 0 !important;
 }
 

@@ -55,13 +55,7 @@
     },
     {
         "type": "text",
-        "label": "Experemental options",
-        "margin": "30px 0 15px 0",
-        "size": "20px"
-    },
-    {
-        "type": "Experemental options",
-        "label": "General",
+        "label": "Experimental options",
         "margin": "30px 0 15px 0",
         "size": "20px"
     },

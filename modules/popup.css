@@ -90,23 +90,6 @@ toolbarseparator {
     margin-left: 2px !important;
 }
 
-/* #appMenu-zoom-controls > .toolbarbutton-text,
-#PanelUI-signedin-panel > .subviewbutton .toolbarbutton-text,
-#fxa-manage-account-button > vbox,
-#PanelUI-fxa-menu-syncnow-button > hbox {
-    padding-inline-start: 0 !important;
-} */
-
-/* .widget-overflow-list .toolbarbutton-1:not(.toolbarbutton-combined)>.toolbarbutton-text,
-.subviewbutton:not(#appMenu-zoom-controls > .subviewbutton)>.toolbarbutton-icon+.toolbarbutton-text,
-#appMenu-fxa-label2>vbox {
-    padding-inline-start: 0 !important;
-}
-
-.subviewbutton:is(#appmenu-developer-tools-view > .subviewbutton)>.toolbarbutton-icon+.toolbarbutton-text {
-    padding-inline-start: 0 !important;
-} */
-
 #appMenu-fxa-status2,
 .panel-header {
     padding: 0 !important;
