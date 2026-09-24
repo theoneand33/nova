@@ -109,19 +109,24 @@
 }
 
 @media (-moz-bool-pref: "nova-remove-border-radius") {
+    /* ponytail: corner-shape reset needed since Zen 1.22 renders squircles via corner-shape, not just border-radius */
+    * {
+        corner-shape: round !important;
+    }
+
     :root {
-        --border-radius-xsmall: none !important;
-        --border-radius-small: none !important;
-        --border-radius-large: none !important;
-        --button-border-radius: none !important;
-        --border-radius-medium: none !important;
+        --border-radius-xsmall: 0 !important;
+        --border-radius-small: 0 !important;
+        --border-radius-large: 0 !important;
+        --button-border-radius: 0 !important;
+        --border-radius-medium: 0 !important;
 
-        --panel-border-radius: none !important;
-        --tab-border-radius: none !important;
+        --panel-border-radius: 0 !important;
+        --tab-border-radius: 0 !important;
 
-        --button-border-radius: none !important;
-        --urlbar-icon-border-radius: none !important;
-        --arrowpanel-menuitem-border-radius: none !important;
+        --button-border-radius: 0 !important;
+        --urlbar-icon-border-radius: 0 !important;
+        --arrowpanel-menuitem-border-radius: 0 !important;
     }
 
     menupopup,
